@@ -1,0 +1,307 @@
+{
+  "main": {
+    "id": "141e1268d09bcddb",
+    "type": "split",
+    "children": [
+      {
+        "id": "beb1b15d78e12aa0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "128f6f8949c01cac",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "ec6efe348019cf82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06 Strength Training/Split.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Split"
+            }
+          },
+          {
+            "id": "976ed555986aecf2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Programming Notes/DSA & CP/Clone_LL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Clone_LL"
+            }
+          },
+          {
+            "id": "493bc9c35dcee4bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IITB/Email spam.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Email spam"
+            }
+          },
+          {
+            "id": "1c6f5b182ca4b369",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05 Resources/Templates/Trade.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Trade"
+            }
+          },
+          {
+            "id": "6404a7bbf9202ddb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IITB/slides.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "slides"
+            }
+          },
+          {
+            "id": "afe3031bb155c86a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IITB/kafka.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "kafka"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "174c6e1f829f49c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "f8e91bf9384eeca9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "391dd41bb12927b9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4e91ca991c089c77",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fa3068e1430f8fb4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8ac232beb1caba71",
+    "type": "split",
+    "children": [
+      {
+        "id": "10bbe8514c308b81",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85452ca328b32d37",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "hi.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for hi"
+            }
+          },
+          {
+            "id": "de7f7f611856a142",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "hi.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from hi"
+            }
+          },
+          {
+            "id": "fbf38786a132acbd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5b51de111c2232c4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "hi.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of hi"
+            }
+          },
+          {
+            "id": "0808bb24d671a32e",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "quickadd:QuickAdd": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "github-sync:Sync with Remote": false
+    }
+  },
+  "active": "afe3031bb155c86a",
+  "lastOpenFiles": [
+    "Binary Search.md",
+    "IITB/kafka.md",
+    "IITB/slides.md",
+    "SBIN.md",
+    "Kadane’s Algorithm.md",
+    "Untitled",
+    "05 Resources/Easy Access.md",
+    "05 Resources/Templates/Trade.md",
+    "Trading/Untitled.md",
+    "Trading",
+    "IITB/Email spam.md",
+    "02 Programming Notes/DSA & CP/Power.md",
+    "IITB",
+    "02 Programming Notes/DSA & CP/Clone_LL.md",
+    "06 Strength Training/Split.md",
+    "06 Strength Training/Warm-Up.md",
+    "06 Strength Training",
+    "02 Programming Notes/AI & ML/DL/GPU_benchmarking_with_Image_classification.md",
+    "Benchmarking.md",
+    "Top250.md",
+    "02 Programming Notes/DSA & CP/Rotate_Left_LL.md",
+    "02 Programming Notes/AI & ML/ML/Naive_Bayes_Classifier_Part_1.md",
+    "Topic1.md",
+    "Untitled.canvas",
+    "2025-04-19.md",
+    "05 Resources/Templates/C4IT_Template.md",
+    "02 Programming Notes/AI & ML/ML/What_is_Machine_Learning.md",
+    "02 Programming Notes/AI & ML/ML/Bias_vs_Variance.md",
+    "02 Programming Notes/AI & ML/ML/Support_Vector_Machine.md",
+    "02 Programming Notes/AI & ML/ML/Introduction.md",
+    "02 Programming Notes/AI & ML/ML/Training_and_Testing_Data.md",
+    "02 Programming Notes/AI & ML/DL",
+    "02 Programming Notes/AI & ML/ML",
+    "05 Resources/Templates",
+    "02 Programming Notes/Snippets & Patterns",
+    "02 Programming Notes/DSA & CP",
+    "02 Programming Notes/AI & ML"
+  ]
+}
