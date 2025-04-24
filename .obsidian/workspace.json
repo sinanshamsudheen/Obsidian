@@ -264,8 +264,9 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "afe3031bb155c86a",
+  "active": "391dd41bb12927b9",
   "lastOpenFiles": [
+    "hi",
     "Binary Search.md",
     "IITB/kafka.md",
     "IITB/slides.md",
@@ -296,7 +297,6 @@
     "02 Programming Notes/AI & ML/ML/Bias_vs_Variance.md",
     "02 Programming Notes/AI & ML/ML/Support_Vector_Machine.md",
     "02 Programming Notes/AI & ML/ML/Introduction.md",
-    "02 Programming Notes/AI & ML/ML/Training_and_Testing_Data.md",
     "02 Programming Notes/AI & ML/DL",
     "02 Programming Notes/AI & ML/ML",
     "05 Resources/Templates",
