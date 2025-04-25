@@ -1,5 +1,8 @@
-
-### created: 25-04-2025
+<%*
+let created = tp.date.now("DD-MM-YYYY"); // Use current date for file creation
+let title = tp.file.title;
+%>
+### created: <% created %>
 ---
 ## Problem Overview  
 
@@ -12,14 +15,14 @@
 What concept(s) does this problem test?  
 (e.g. Binary Search, DP, Greedy, Graphs, Trees, etc.)
 
-What is the key concept used in DSA::[e.g. Dynamic Programming with Memoization]
+What is the key concept used in <% title %>::[e.g. Dynamic Programming with Memoization]
 
 ---
 ### Context  
 Where and when is this useful?  
 (e.g. Common in interviews, real-world problem class, etc.)
 
-In what context does DSA apply::[Use-case explanation]
+In what context does <% title %> apply::[Use-case explanation]
 
 ---
 ### Connection  
@@ -29,7 +32,7 @@ Which concepts/techniques/other problems are related?
 - [[Kadane’s Algorithm]]
 - [[DP-State Optimization]]
 
-What is DSA connected to::[[Linked_Problem_1]], [[Technique]]
+What is <% title %> connected to::[[Linked_Problem_1]], [[Technique]]
 
 ---
 ### Concrete Example  
@@ -42,7 +45,7 @@ def solve(arr):
     return result
 ```
 
-Walk through a sample example of DSA::[Step-by-step explanation]
+Walk through a sample example of <% title %>::[Step-by-step explanation]
 
 
 ---
@@ -57,7 +60,7 @@ What mistake did I make and how did I fix it?
 What would I ask in a follow-up or variation?
 [Write here]
 
-The most common mistake in DSA is {{[your insight]}}.
+The most common mistake in <% title %> is {{[your insight]}}.
 
 
 ---
@@ -66,11 +69,11 @@ The most common mistake in DSA is {{[your insight]}}.
 Time: O(...)
 Space: O(...)
 
-What is the time and space complexity of DSA::Time: O(...), Space: O(...)
+What is the time and space complexity of <% title %>::Time: O(...), Space: O(...)
 
 
 ---
 ##### Tags
 
-#dsa/DSA #cp #leetcode #gfg #interview #flashcard
+#dsa/<% title %> #cp #leetcode #gfg #interview #flashcard
 
