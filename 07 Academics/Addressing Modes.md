@@ -249,3 +249,4 @@ Ri ← Ri - d; EA = [Ri]
 ---
 
 Would you like me to integrate this into the complete addressing modes note as well?
+![[Pasted image 20250501143336.png]]

@@ -234,3 +234,36 @@ int** doublePtr = &ptr;   // Memory indirect (if ptr is in memory)
 ---
 
 Would you like a diagram showing how data flows in both types?
+
+
+
+**Branching** refers to the processor's ability to **change the normal sequential flow of instructions** based on a condition or decision. This is a fundamental concept in control flow, enabling loops, conditional statements (if-else), and jumps in programs.
+
+1. **Unconditional Branch (Jump)**
+    
+    - The program counter (PC) is updated to a new address **without any condition**.
+        
+    - Example: `GOTO`, `JMP` instructions.
+        
+    - **Hardware Action**: The target address is loaded into the PC, bypassing the next sequential instruction.
+        
+2. **Conditional Branch**
+    
+    - The PC is updated **only if a specified condition is met** (e.g., zero, carry, overflow).
+        
+    - Example: `BEQ` (Branch if Equal), `BNE` (Branch if Not Equal).
+        
+    - **Hardware Action**:
+        
+        - The ALU evaluates the condition (e.g., compares two values).
+            
+        - If true, the PC is updated with the branch target; otherwise, execution continues sequentially.
+
+![[Pasted image 20250501152835.png]]
+
+**Execution of a complete instruction.**
+![[Pasted image 20250501153333.png]]
+
+![[Pasted image 20250501155142.png]]
+
+![[Pasted image 20250501155857.png]]
