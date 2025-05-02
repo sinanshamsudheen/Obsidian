@@ -266,4 +266,374 @@ Would you like a diagram showing how data flows in both types?
 
 ![[Pasted image 20250501155142.png]]
 
-![[Pasted image 20250501155857.png]]
+![[Pasted image 20250501162556.png]]
+
+|Mnemonic Word|Component|
+|---|---|
+|**I**|**Incrementer**|
+|**Play**|**PC (Program Counter)**|
+|**Retro**|**Register File**|
+|**Music**|**MUX**|
+|**At**|**ALU**|
+|**Intense**|**Instruction Decoder**|
+|**Raves**|**IR (Instruction Register)**|
+|**Making**|**MDR (Memory Data Reg.)**|
+|**Absolute**|**MAR (Memory Addr. Reg.)**|
+|**Rock**|**Results / Output to Bus** (bonus)|
+
+Sure! Let's break down **Microprogrammed Control** in a super easy and intuitive way, like you're learning from a friend — no jargon, just clear mental pictures. 🧠✨
+
+---
+
+## 🚦 What is Microprogrammed Control?
+
+Microprogrammed Control is like writing **mini-programs** (called _microinstructions_) to control how a CPU executes each instruction.
+
+Think of it like:
+
+> 🧑‍🍳 A chef (CPU) following a **recipe book** (control memory) where each recipe step (microinstruction) tells what to do next — cut, stir, boil — very precisely.
+
+---
+
+## 🧠 Basic Concept:
+
+Imagine you want to execute a single instruction like:
+
+```assembly
+ADD R1, R2, R3
+```
+
+To **actually perform** that in hardware, you need a series of small steps:
+
+1. Get the instruction from memory
+    
+2. Decode it
+    
+3. Get values from R2 and R3
+    
+4. Add them using the ALU
+    
+5. Store result in R1
+    
+
+👉 Each of these steps = **1 microinstruction**
+
+So, for every machine-level instruction, there's a **sequence of microinstructions** stored in a special memory.
+
+---
+
+## 💾 Where are Microinstructions Stored?
+
+In **Control Memory**.
+
+- Just like your RAM stores data,
+    
+- Control Memory stores **microinstructions**.
+    
+
+---
+
+## 🧭 What Executes These Microinstructions?
+
+A **Microprogrammed Control Unit** reads these microinstructions one by one and controls:
+
+- What data goes on which bus
+    
+- What registers get enabled
+    
+- Which ALU operation to perform
+    
+- And more...
+    
+
+---
+
+## 📊 Microinstruction Format (Simplified):
+
+A microinstruction is like a **bit-field instruction** that controls all internal parts of CPU.
+
+|Field|Purpose|
+|---|---|
+|ALU Control|What ALU should do (ADD, SUB, etc.)|
+|Register Control|Which register to read/write|
+|Memory Control|Should we read/write memory|
+|Next Address|Where to go next (for sequencing)|
+
+---
+
+## 🎮 Analogy: Microprogramming is like Game Scripting
+
+Imagine you're making a game:
+
+- Big action: **“Jump Attack”**
+    
+- It's made of smaller steps:
+    
+    - Lift foot
+        
+    - Bend knees
+        
+    - Push off
+        
+    - Spin mid-air
+        
+    - Slash
+        
+    - Land
+        
+
+Similarly:
+
+- Big CPU instruction = “ADD”
+    
+- It’s made of smaller **microsteps** in microcode
+    
+
+---
+
+## 🛠️ Two Types of Control Units
+
+|Feature|Hardwired Control|Microprogrammed Control|
+|---|---|---|
+|Speed|Very fast ⚡|Slower 🐢|
+|Flexibility|Hard to modify|Easy to change ✅|
+|Implementation|Using logic gates|Using microinstructions|
+|Usage|RISC CPUs|CISC CPUs like x86|
+
+---
+
+## 🔁 How It Works – Step by Step
+
+1. **Instruction Fetch**
+    
+    - Microcode tells how to fetch an instruction from memory
+        
+2. **Decode**
+    
+    - Based on opcode, go to the correct microprogram
+        
+3. **Execute**
+    
+    - Run microinstructions that move data, call ALU, etc.
+        
+4. **Next Instruction**
+    
+    - Jump back to fetch the next instruction
+        
+
+---
+
+## 🔄 Sequencing Microinstructions
+
+To know what microinstruction comes next:
+
+- Use a **microprogram counter** (like PC)
+    
+- It’s updated like:
+    
+    - `Next = Current + 1` (default)
+        
+    - Or **jump to another address** (conditional or direct)
+        
+
+---
+
+## 🧩 Diagram Summary:
+
+Here's what the control unit includes:
+
+- **Control Memory**: stores microinstructions
+    
+- **Control Address Register (CAR)**: like a PC for microinstructions
+    
+- **Control Data Register (CDR)**: holds current microinstruction
+    
+- **Decoder & Control Signals**: controls ALU, buses, memory
+    
+
+---
+
+## 📌 Why Microprogramming is Important:
+
+✅ Easier to **design and update**  
+✅ Good for **complex instruction sets** (like CISC)  
+✅ Can even **emulate other CPUs** using new microcode!
+
+---
+
+## 📚 Summary in One Line:
+
+> **Microprogrammed control** breaks each CPU instruction into a sequence of **smaller, simpler steps**, stored in a memory and executed one by one to control the CPU's internal operations.
+
+---
+
+Would you like a **simple diagram** to visualize the whole process?
+
+![[Pasted image 20250502073429.png]]![[Pasted image 20250502073506.png]]
+
+![[Pasted image 20250502073629.png]]
+![[Pasted image 20250502073647.png]]
+![[Pasted image 20250502081056.png]]![[Pasted image 20250502104455.png]]
+
+| Field   | Full Form / Meaning           | Use / Purpose                                                                                                  |
+| ------- | ----------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **I**   | **Input (I) field**           | Provides input control bits to the **microprogram sequencer** to influence branching logic.                    |
+| **SL**  | **Status Line Select**        | Selects which **status bit** (like zero, carry, sign) to test via the **MUX**; helps in conditional branching. |
+| **BRA** | **Branch Address Field**      | Holds the **next microinstruction address** to jump to, in case of a branch or subroutine call.                |
+| **MC**  | **Memory Control**            | Controls operations related to memory (e.g., read/write, address processor functions).                         |
+| **PS**  | **Processor Control Signals** | Triggers **ALU operations**, **register transfers**, etc., within the data processor.                          |
+| **DF**  | **Data Field / Data Format**  | Introduces constants or immediate values into the datapath or ALU for processing.                              |
+
+![[Pasted image 20250502111821.png]]
+Absolutely! This diagram and table explain the **PLA (Programmable Logic Array) control for a binary multiplier**. Let’s break it down in a clear, intuitive way.
+
+---
+
+## 🧠 What You’re Seeing:
+
+This is an example of **PLA-based control** used to generate control signals for different steps in a **binary multiplication process**.
+
+### 🔷 Figure (a): **Block Diagram**
+
+- **Inputs to PLA**:
+    
+    - `G1`, `G2`: External signals that feed into the system.
+        
+    - `Q1`, `P2`, `qm`: Status signals that represent current state of multiplication registers or logic.
+        
+- **PLA Outputs**:
+    
+    - `T0` to `T3`: Timing/control signals for step sequencing.
+        
+    - `L`: Load signal (e.g., load register).
+        
+    - Others: Represent operations required for binary multiplication.
+        
+
+---
+
+## 📋 Figure (b): **PLA Program Table**
+
+|Product Term|Inputs (1–5)|Outputs (1–7)|Comments|
+|---|---|---|---|
+|1|`0 0 0 - -`|`1 - - - - - -`|`T0 = 1`, `qm = 0`|
+|2|`0 0 1 - -`|`1 - - - - - -`|`T0 = 1`, `qm = 1`|
+|3|`0 1 0 - 0`|`- 1 - - - - -`|`T1 = 1`|
+|4|`0 1 0 - 1`|`- - 1 - - - -`|`T2 = 1`, `Q1 = 0`|
+|5|`1 0 - 1 -`|`- - - 1 1 1 -`|`T2 = 1`, `L = 1`, `Q1 = 1`|
+|6|`1 1 - - -`|`- - - - - - 1`|`T3 = 1`, `P2 = 0`|
+|7|`1 1 - - -`|`- - - - - - 1`|`T3 = 1`, `P2 = 1`|
+
+---
+
+## 🔍 Let's Understand It Step-by-Step:
+
+### 1. **Inputs (columns 1–5)**:
+
+Each row is a **product term**, or a condition.
+
+The 5 input columns are:
+
+1. `G1`
+    
+2. `G2`
+    
+3. `qm` (bit of multiplier)
+    
+4. `Q1` (partial product status bit)
+    
+5. `P2` (bit used during shifting/adding)
+    
+
+Here:
+
+- `0` → logic 0 must be true
+    
+- `1` → logic 1 must be true
+    
+- `-` → don’t care (any value is okay)
+    
+
+---
+
+### 2. **Outputs (columns 1–7)**:
+
+These map to:
+
+1. `T0`
+    
+2. `T1`
+    
+3. `T2`
+    
+4. `L` (Load)
+    
+5. `Q1`
+    
+6. `P2`
+    
+7. `T3`
+    
+
+Each “1” means that output is **activated** when the condition (product term) is matched.
+
+---
+
+### 🧠 Sample Interpretations:
+
+#### 🔸 Product Term 1:
+
+- Inputs: `G1=0`, `G2=0`, rest don't matter.
+    
+- Output: `T0 = 1`
+    
+- **Meaning**: When `G1=0` and `G2=0`, trigger `T0`. This likely starts the multiplication process.
+    
+
+#### 🔸 Product Term 5:
+
+- Inputs: `G1=1`, `G2=0`, `Q1=1`, `P2=don't care`, `qm=don't care`
+    
+- Output: `T2 = 1`, `L = 1`, `Q1 = 1`
+    
+- **Meaning**: This is likely a **partial product load and shift** operation based on multiplier bit logic.
+    
+
+#### 🔸 Product Term 6 and 7:
+
+- Inputs: `G1=1`, `G2=1`
+    
+- Output: `T3 = 1`, `P2 = 0 or 1`
+    
+- **Meaning**: Wrap-up or completion of multiplication based on last bit of `P2`.
+    
+
+---
+
+## 🎯 Summary:
+
+- This **PLA** replaces hardwired control logic with a **programmable table**.
+    
+- Inputs are current machine states and flags (like `qm`, `Q1`, `P2`)
+    
+- Outputs are the exact **control signals** needed for each step of binary multiplication.
+    
+- **Benefits**: Easy to modify behavior by updating the table — no rewiring needed.
+    
+
+---
+
+Would you like a cheat sheet PDF or step-by-step execution trace based on a real binary multiplication example?
+
+
+**Problem**: Addition and subtraction of signed binary numbers
+![[Pasted image 20250502114204.png]]
+
+![[Pasted image 20250502114452.png]]
+
+
+![[Pasted image 20250502115145.png]]
+![[Pasted image 20250502115134.png]]
+![[Pasted image 20250502115158.png]]`
+
+![[Pasted image 20250502115215.png]]
