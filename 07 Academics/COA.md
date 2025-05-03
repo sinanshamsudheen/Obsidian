@@ -637,3 +637,183 @@ Would you like a cheat sheet PDF or step-by-step execution trace based on a real
 ![[Pasted image 20250502115158.png]]`
 
 ![[Pasted image 20250502115215.png]]
+
+RTL,
+![[Pasted image 20250502155712.png]]
+
+![[Pasted image 20250502161057.png]]
+
+Memory Transfer
+![[Pasted image 20250502161112.png]]
+
+![[Pasted image 20250502162333.png]]
+
+![[Pasted image 20250502180806.png]]
+
+![[Pasted image 20250502180833.png]]
+
+![[Pasted image 20250502181017.png]]
+
+![[Pasted image 20250502181757.png]]
+
+![[Pasted image 20250502182730.png]]
+
+![[Pasted image 20250502182815.png]]
+
+![[Pasted image 20250502183248.png]]
+
+![[Pasted image 20250502225827.png]]
+
+![[Pasted image 20250502230233.png]]
+![[Pasted image 20250502230247.png]]
+![[Pasted image 20250502230627.png]]
+
+![[Pasted image 20250503001635.png]]
+
+![[Pasted image 20250503001843.png]]
+![[Pasted image 20250503012713.png]]
+![[Pasted image 20250503105025.png]]
+![[Pasted image 20250503105842.png]]
+
+![[Pasted image 20250503112704.png]]
+![[Pasted image 20250503113201.png]]
+![[Pasted image 20250503113354.png]]
+
+![[Pasted image 20250503115350.png]]
+
+![[Pasted image 20250503141346.png]]
+
+![[Pasted image 20250503144350.png]]
+
+Cache mapping is how the CPU decides **where to place a block of main memory into cache**. There are **three types** of cache mapping techniques:
+
+---
+
+## 🧠 1. **Direct Mapping**
+
+### 🔧 How It Works:
+
+Each block of main memory maps to **exactly one cache line**.
+
+**Formula:**
+
+```
+Cache Line = (Main Memory Block Number) mod (Number of Cache Lines)
+```
+
+### 🗂️ Cache Entry:
+
+- **Tag** (high-order bits of memory address)
+    
+- **Block data**
+    
+
+### ✅ Pros:
+
+- Very **simple** and **fast**
+    
+
+### ❌ Cons:
+
+- If two blocks map to the same cache line, they keep **replacing each other** — **high conflict misses**.
+    
+
+### 🧠 Example:
+
+If Block 0 and Block 8 both map to Line 0, they **cannot coexist**.
+
+---
+
+## 🧠 2. **Fully Associative Mapping**
+
+### 🔧 How It Works:
+
+A block from main memory can be placed **anywhere in the cache**.
+
+### 🗂️ Cache Entry:
+
+- **Tag** (more bits needed)
+    
+- **Block data**
+- offset
+    
+
+### ✅ Pros:
+
+- **No conflict misses** — any block goes anywhere.
+    
+- Best for small caches with **irregular access patterns**.
+    
+
+### ❌ Cons:
+
+- Must **search the entire cache** for a match → **slow** and **expensive** (needs comparators for each line).
+    
+- Complex hardware.
+    
+
+---
+
+## 🧠 3. **Set-Associative Mapping**
+
+This is a **compromise** between the two above.
+
+### 🔧 How It Works:
+
+- Cache is divided into **sets** (e.g., 4-way set-associative = 4 blocks per set).
+    
+- A block maps to **one set**, but **can go in any line within that set**.
+    
+
+**Formula:**
+
+```
+Set Number = (Block Number) mod (Number of Sets)
+```
+
+### 🗂️ Cache Entry:
+
+- **Set Index**
+    
+- **Tag** (to distinguish blocks in same set)
+    
+- **Block data**
+- offset
+    
+
+### ✅ Pros:
+
+- Fewer conflict misses than direct mapping.
+    
+- Less hardware than fully associative.
+    
+
+### ❌ Cons:
+
+- Slightly more complex and slower than direct mapping.
+    
+
+---
+
+## 🔁 Quick Comparison
+
+|Feature|Direct|Fully Associative|Set-Associative|
+|---|---|---|---|
+|Placement Flexibility|1 place only|Anywhere|Anywhere in a set|
+|Speed|Fast|Slow|Moderate|
+|Conflict Misses|High|None|Moderate|
+|Hardware Complexity|Low|High|Medium|
+
+---
+
+![[Pasted image 20250503154349.png]]
+
+![[Pasted image 20250503165631.png]]
+![[Pasted image 20250503170234.png]]
+![[Pasted image 20250503182924.png]]
+![[Pasted image 20250503185355.png]]
+DMA
+![[Pasted image 20250503191951.png]]
+
+**Bus Arbitration** is the process of deciding **which device gets control over a shared communication bus** when multiple devices request access at the same time
+![[Pasted image 20250503192105.png]]
