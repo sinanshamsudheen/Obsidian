@@ -638,8 +638,8 @@ Would you like a cheat sheet PDF or step-by-step execution trace based on a real
 
 ![[Pasted image 20250502115215.png]]
 
-RTL,
-![[Pasted image 20250502155712.png]]
+BUS TRANSFER
+![[Pasted image 20250503220859.png]]
 
 ![[Pasted image 20250502161057.png]]
 
@@ -664,6 +664,7 @@ Memory Transfer
 
 ![[Pasted image 20250502225827.png]]
 
+![[Pasted image 20250504121243.png]]
 ![[Pasted image 20250502230233.png]]
 ![[Pasted image 20250502230247.png]]
 ![[Pasted image 20250502230627.png]]
