@@ -10,10 +10,17 @@
 
 ## **Notes / Insights**
 ```
+<<<<<<< HEAD
 worked on implementing NPS on the metrics/ page
 
 ```
 ![[Pasted image 20250725211922.png]]
+=======
+
+
+```
+
+>>>>>>> origin/master
 ## **Problems or blockers**
 ```
 
@@ -25,6 +32,7 @@ worked on implementing NPS on the metrics/ page
     
 - [ ]  Task 2
     
+<<<<<<< HEAD
 - [ ]  Task 3
 
 # 📋 **Complete Documentation of Today's Changes and Improvements**
@@ -460,3 +468,6 @@ console.log('CallAnalysisCharts filters:', { startDate, endDate, groupBy, filter
 ---
 
 This comprehensive documentation covers every change, improvement, and enhancement made to the Metrics page today, ensuring complete transparency and providing a reference for future development.
+=======
+- [ ]  Task 3
+>>>>>>> origin/master

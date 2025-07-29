@@ -1,16 +1,32 @@
+<<<<<<< HEAD
 
 ### created: 25-07-2025
+=======
+<%*
+let created = tp.date.now("DD-MM-YYYY");
+let title = tp.file.title;
+%>
+### created: <% created %>
+>>>>>>> origin/master
 ---
 ### Concept  
 Explain the core idea in your own words. What is it?
 
+<<<<<<< HEAD
 What is the concept of DSA::[Your concise definition here.]
+=======
+What is the concept of <% title %>::[Your concise definition here.]
+>>>>>>> origin/master
 
 ---
 ### Context  
 Where and when is it used? Why is it important?
 
+<<<<<<< HEAD
 In what context is DSA typically applied::[Contextual application.]
+=======
+In what context is <% title %> typically applied::[Contextual application.]
+>>>>>>> origin/master
 
 ---
 ### Connection  
@@ -19,7 +35,11 @@ Link this to related concepts, building blocks, or prerequisites.
 - [[Related_Topic_1]]
 - [[Related_Topic_2]]
 
+<<<<<<< HEAD
 What concepts are connected to DSA::[[Topic1]], [[Topic2]]
+=======
+What concepts are connected to <% title %>::[[Topic1]], [[Topic2]]
+>>>>>>> origin/master
 
 ---
 ### Concrete Example  
@@ -45,10 +65,18 @@ What’s a common misconception or edge case?
 [Write it here]
 
 
+<<<<<<< HEAD
 The key idea behind DSA is {{[your keyword or phrase]}}.
+=======
+The key idea behind <% title %> is {{[your keyword or phrase]}}.
+>>>>>>> origin/master
 
 
 ---
 ##### Tags
 
+<<<<<<< HEAD
 #ai/DSA #ai #python #flashcard
+=======
+#ai/<% title %> #ai #python #flashcard
+>>>>>>> origin/master

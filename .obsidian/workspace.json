@@ -293,12 +293,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08 Work/lok 101.md",
+                "file": "08 Work/hands on.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lok 101"
+              "title": "hands on"
             }
           },
           {
@@ -512,13 +512,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eec23d08937cfa39",
+  "active": "391dd41bb12927b9",
   "lastOpenFiles": [
-    "08 Work/Prompt for Work Doc.md",
-    "08 Work/lok 101.md",
-    "08 Work/sunday - lok 113.md",
+    "GDforexam.md",
+    "08 Work/hands on.md",
     "Untitled.md",
-    "hands on.md",
+    "Topic1.md",
+    "Untitled.canvas",
+    "08 Work/lok 101.md",
+    "conflict-files-obsidian-git.md",
+    "08 Work/Prompt for Work Doc.md",
+    "08 Work/sunday - lok 113.md",
     "08 Work/attachments/2025-07-27_09-36.png",
     "09 Freelance/Ajnukka.md",
     "02 Programming Notes/AI & ML/DL/LSTM (Long Short-Term Memory).md",
@@ -529,14 +533,11 @@
     "08 Work/friday.md",
     "08 Work/attachments/Pasted image 20250725211922.png",
     "08 Work/attachments",
-    "Untitled.canvas",
     "Trading/Untitled.md",
     "Trading",
-    "Topic1.md",
     "Templates/DSA.md",
     "Templates/C4IT_Template.md",
     "Templates",
-    "GDforexam.md",
     "05 Resources/Templates/Work.md",
     "08 Work/hi.md",
     "08 Work/hii.md",
@@ -547,7 +548,6 @@
     "08 Work",
     "02 Programming Notes/AI & ML/YOLO.md",
     "02 Programming Notes/AI & ML/DL/RNN.md",
-    "02 Programming Notes/AI & ML/DL/Word2Vec.md",
     "02 Programming Notes/AI & ML/DL/attachments/Pasted image 20250605103047.png",
     "02 Programming Notes/AI & ML/DL/attachments/Pasted image 20250605102859.png",
     "02 Programming Notes/AI & ML/DL/attachments/Pasted image 20250605102842.png",
@@ -556,7 +556,6 @@
     "02 Programming Notes/AI & ML/DL/attachments/Pasted image 20250605101731.png",
     "02 Programming Notes/AI & ML/DL/attachments/Pasted image 20250605101643.png",
     "02 Programming Notes/AI & ML/DL/attachments/Pasted image 20250605101621.png",
-    "02 Programming Notes/AI & ML/DL/GRU (Gated Recurrent Units).md",
     "attachments",
     "02 Programming Notes/AI & ML/DL/attachments",
     "IITB/Handbooks",
