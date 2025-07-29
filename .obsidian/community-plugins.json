@@ -3,5 +3,7 @@
   "dataview",
   "templater-obsidian",
   "obsidian-spaced-repetition",
-  "github-sync"
+  "fit",
+  "obsidian-collapse-all-plugin",
+  "obsidian-git"
 ]

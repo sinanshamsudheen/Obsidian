@@ -3,5 +3,7 @@
   "userIgnoreFilters": [
     "05 Resources/Templates/"
   ],
-  "promptDelete": false
+  "promptDelete": false,
+  "useMarkdownLinks": false,
+  "attachmentFolderPath": "./attachments"
 }

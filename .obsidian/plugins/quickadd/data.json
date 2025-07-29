@@ -1,6 +1,36 @@
 {
   "choices": [
     {
+      "id": "a90db07f-f260-4481-aa47-500875fc62df",
+      "name": "Work",
+      "type": "Template",
+      "command": false,
+      "templatePath": "05 Resources/Templates/Work.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "08 Work"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
       "id": "3137bf66-8f3e-48a3-95c9-d6ec1218e668",
       "name": "DL",
       "type": "Template",
@@ -103,6 +133,36 @@
       "folder": {
         "enabled": true,
         "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "7d93d6e6-cade-4ea5-9319-7dc914f77af5",
+      "name": "Academics",
+      "type": "Template",
+      "command": false,
+      "templatePath": "05 Resources/Templates/Academics.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "07 Academics"
+        ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false
