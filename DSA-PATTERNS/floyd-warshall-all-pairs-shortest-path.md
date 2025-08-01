@@ -396,10 +396,4 @@ def shortest_path_with_alternating_colors(n, red_edges, blue_edges):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Floyd-Warshall / All-Pairs Shortest Path pattern? ::
-
-• Dynamic programming algorithm finding shortest paths between all vertex pairs in O(V³) time
-• Handles negative edges but detects negative cycles, considers each vertex as intermediate point
-• Used for dense graphs, transitive closure, and when all-pairs shortest paths are needed
-
-[[floyd-warshall-all-pairs-shortest-path]] 
+What is the Floyd-Warshall / All-Pairs Shortest Path pattern? :: • Dynamic programming algorithm finding shortest paths between all vertex pairs in O(V³) time • Handles negative edges but detects negative cycles, considers each vertex as intermediate point • Used for dense graphs, transitive closure, and when all-pairs shortest paths are needed [[floyd-warshall-all-pairs-shortest-path]] 

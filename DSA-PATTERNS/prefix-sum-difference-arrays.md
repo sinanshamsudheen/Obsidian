@@ -385,10 +385,4 @@ def maximum_sum_circular_subarray(nums):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Prefix Sum / Difference Arrays pattern? ::
-
-• Prefix Sum: Precomputes cumulative sums for O(1) range sum queries after O(n) preprocessing
-• Difference Array: Enables O(1) range updates by storing differences between consecutive elements  
-• Applied to subarray problems, range queries, and problems requiring efficient range operations
-
-[[prefix-sum-difference-arrays]]
+What is the Prefix Sum / Difference Arrays pattern? :: • Prefix Sum: Precomputes cumulative sums for O(1) range sum queries after O(n) preprocessing • Difference Array: Enables O(1) range updates by storing differences between consecutive elements • Applied to subarray problems, range queries, and problems requiring efficient range operations [[prefix-sum-difference-arrays]]

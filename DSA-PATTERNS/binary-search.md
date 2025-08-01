@@ -178,10 +178,4 @@ def sqrt_binary_search(x):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Binary Search pattern? ::
-
-• Efficiently finds target in sorted array by repeatedly dividing search space in half
-• O(log n) time complexity by eliminating half of elements each iteration
-• Compares middle element with target to decide which half to search next
-
-[[binary-search]] 
+What is the Binary Search pattern? :: • Efficiently finds target in sorted array by repeatedly dividing search space in half • O(log n) time complexity by eliminating half of elements each iteration • Compares middle element with target to decide which half to search next [[binary-search]] 

@@ -335,10 +335,4 @@ def minimum_spanning_tree_kruskal(n, edges):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Union Find / Disjoint Set pattern? ::
-
-• Data structure tracking disjoint sets with Union (merge) and Find (representative) operations
-• Uses path compression and union by rank/size for near O(1) amortized performance
-• Applied to connectivity problems, cycle detection, clustering, and minimum spanning trees
-
-[[union-find-disjoint-set]] 
+What is the Union Find / Disjoint Set pattern? :: • Data structure tracking disjoint sets with Union (merge) and Find (representative) operations • Uses path compression and union by rank/size for near O(1) amortized performance • Applied to connectivity problems, cycle detection, clustering, and minimum spanning trees [[union-find-disjoint-set]] 

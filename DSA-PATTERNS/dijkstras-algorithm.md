@@ -439,10 +439,4 @@ def dijkstra_with_modifications(graph, start, forbidden_nodes):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Dijkstra's Algorithm pattern? ::
-
-• Greedy algorithm finding shortest paths from source to all vertices using priority queue (min-heap)
-• O((V + E) log V) time complexity, works only with non-negative edge weights
-• Applied to shortest path problems, network routing, and optimization with distance/cost metrics
-
-[[dijkstras-algorithm]] 
+What is the Dijkstra's Algorithm pattern? :: • Greedy algorithm finding shortest paths from source to all vertices using priority queue (min-heap) • O((V + E) log V) time complexity, works only with non-negative edge weights • Applied to shortest path problems, network routing, and optimization with distance/cost metrics [[dijkstras-algorithm]] 

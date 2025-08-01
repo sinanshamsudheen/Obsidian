@@ -341,10 +341,4 @@ def maximum_swap(num):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Greedy Algorithms pattern? ::
-
-• Makes locally optimal choices at each step hoping to achieve globally optimal solution
-• Works when local optimal choices lead to global optimum, often requiring proof of correctness
-• Applied to scheduling, interval problems, optimization tasks, and resource allocation problems
-
-[[greedy-algorithms]] 
+What is the Greedy Algorithms pattern? :: • Makes locally optimal choices at each step hoping to achieve globally optimal solution • Works when local optimal choices lead to global optimum, often requiring proof of correctness • Applied to scheduling, interval problems, optimization tasks, and resource allocation problems [[greedy-algorithms]] 

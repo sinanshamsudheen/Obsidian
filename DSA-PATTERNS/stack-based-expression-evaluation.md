@@ -476,10 +476,4 @@ def calculator_with_functions(expression):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Stack-based Expression Evaluation pattern? ::
-
-• Uses stacks to parse and evaluate mathematical expressions, handling precedence and parentheses
-• Two approaches: convert to postfix (RPN) or direct evaluation with operator/operand stacks
-• Applied to calculators, expression parsing, parentheses validation, and mathematical interpreters
-
-[[stack-based-expression-evaluation]] 
+What is the Stack-based Expression Evaluation pattern? :: • Uses stacks to parse and evaluate mathematical expressions, handling precedence and parentheses • Two approaches: convert to postfix (RPN) or direct evaluation with operator/operand stacks • Applied to calculators, expression parsing, parentheses validation, and mathematical interpreters [[stack-based-expression-evaluation]] 

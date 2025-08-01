@@ -165,10 +165,4 @@ def max_path_sum(root):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Tree DFS pattern? ::
-
-• Traverses tree depth-first using recursion or stack with three orders: pre-order, in-order, post-order
-• Time O(n), Space O(h) where h is height; uses implicit/explicit stack
-• Used for tree validation, path problems, and tree reconstruction tasks
-
-[[tree-dfs]] 
+What is the Tree DFS pattern? :: • Traverses tree depth-first using recursion or stack with three orders: pre-order, in-order, post-order • Time O(n), Space O(h) where h is height; uses implicit/explicit stack • Used for tree validation, path problems, and tree reconstruction tasks [[tree-dfs]] 

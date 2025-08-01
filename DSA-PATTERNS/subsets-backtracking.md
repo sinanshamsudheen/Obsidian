@@ -309,10 +309,4 @@ def binary_watch(turnedOn):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Subsets (Backtracking) pattern? ::
-
-• Uses recursive backtracking to generate all possible subsets by making include/exclude decisions
-• Explores 2^n possibilities systematically with O(2^n × n) time complexity
-• Applied to power set generation, combinations, and problems requiring all possible selections
-
-[[subsets-backtracking]] 
+What is the Subsets (Backtracking) pattern? :: • Uses recursive backtracking to generate all possible subsets by making include/exclude decisions • Explores 2^n possibilities systematically with O(2^n × n) time complexity • Applied to power set generation, combinations, and problems requiring all possible selections [[subsets-backtracking]] 

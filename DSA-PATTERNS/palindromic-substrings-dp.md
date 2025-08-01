@@ -311,10 +311,4 @@ def count_different_palindromic_subsequences(s):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Palindromic Substrings (DP) pattern? ::
-
-• Finds palindromes (strings reading same forwards/backwards) using DP table or expand-around-centers
-• Two approaches: 2D DP table O(n²) space or expand-around-center O(1) space
-• Used for longest palindromic substring, counting palindromes, and palindromic partitioning problems
-
-[[palindromic-substrings-dp]] 
+What is the Palindromic Substrings (DP) pattern? :: • Finds palindromes (strings reading same forwards/backwards) using DP table or expand-around-centers • Two approaches: 2D DP table O(n²) space or expand-around-center O(1) space • Used for longest palindromic substring, counting palindromes, and palindromic partitioning problems [[palindromic-substrings-dp]] 

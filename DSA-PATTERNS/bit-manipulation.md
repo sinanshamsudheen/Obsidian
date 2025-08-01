@@ -235,10 +235,4 @@ def maximum_xor(nums):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Bit Manipulation pattern? ::
-
-• Uses bitwise operations (AND, OR, XOR, shifts) to solve problems efficiently with binary representations  
-• Key XOR properties: a^a=0, a^0=a; useful for finding unique numbers and duplicates
-• Often provides O(1) space solutions and can be faster than arithmetic operations
-
-[[bit-manipulation]] 
+What is the Bit Manipulation pattern? :: • Uses bitwise operations (AND, OR, XOR, shifts) to solve problems efficiently with binary representations • Key XOR properties: a^a=0, a^0=a; useful for finding unique numbers and duplicates • Often provides O(1) space solutions and can be faster than arithmetic operations [[bit-manipulation]] 

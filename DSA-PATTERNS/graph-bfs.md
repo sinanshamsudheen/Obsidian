@@ -187,10 +187,4 @@ def connected_components(graph):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Graph BFS pattern? ::
-
-• Explores graph level by level using queue, visiting all neighbors before moving to next level
-• Guarantees shortest path in unweighted graphs with O(V + E) time complexity
-• Used for shortest path, connected components, and level-based graph problems
-
-[[graph-bfs]] 
+What is the Graph BFS pattern? :: • Explores graph level by level using queue, visiting all neighbors before moving to next level • Guarantees shortest path in unweighted graphs with O(V + E) time complexity • Used for shortest path, connected components, and level-based graph problems [[graph-bfs]] 

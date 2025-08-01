@@ -427,10 +427,4 @@ def reversePairs(nums):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Segment Tree / Binary Indexed Tree pattern? ::
-
-• Tree-based structures for efficient range queries and updates in O(log n) time
-• Segment Tree: general range operations (sum, min, max), BIT: specialized for prefix sums
-• Used for dynamic arrays requiring frequent range operations and point/range updates
-
-[[segment-tree-binary-indexed-tree]] 
+What is the Segment Tree / Binary Indexed Tree pattern? :: • Tree-based structures for efficient range queries and updates in O(log n) time • Segment Tree: general range operations (sum, min, max), BIT: specialized for prefix sums • Used for dynamic arrays requiring frequent range operations and point/range updates [[segment-tree-binary-indexed-tree]] 

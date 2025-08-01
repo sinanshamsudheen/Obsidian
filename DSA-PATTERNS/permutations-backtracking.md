@@ -340,10 +340,4 @@ def beautiful_arrangements(n):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Permutations (Backtracking) pattern? ::
-
-• Uses recursive backtracking to generate all possible arrangements (n! permutations) of elements
-• Systematically places each element and backtracks to explore alternatives with O(n! × n) complexity
-• Applied to arrangement problems, sequence generation, and ordering-dependent solutions
-
-[[permutations-backtracking]] 
+What is the Permutations (Backtracking) pattern? :: • Uses recursive backtracking to generate all possible arrangements (n! permutations) of elements • Systematically places each element and backtracks to explore alternatives with O(n! × n) complexity • Applied to arrangement problems, sequence generation, and ordering-dependent solutions [[permutations-backtracking]] 

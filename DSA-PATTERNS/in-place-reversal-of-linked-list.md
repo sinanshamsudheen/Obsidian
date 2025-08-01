@@ -151,10 +151,4 @@ def reverse_alternate_k_nodes(head, k):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the In-place Reversal of Linked List pattern? ::
-
-• Reverses linked list or portions of it using three pointers (prev, current, next) without extra space
-• Achieves O(n) time and O(1) space by reversing pointer directions while traversing
-• Used for reversing entire lists, specific sections, or groups of nodes in linked lists
-
-[[in-place-reversal-of-linked-list]] 
+What is the In-place Reversal of Linked List pattern? :: • Reverses linked list or portions of it using three pointers (prev, current, next) without extra space • Achieves O(n) time and O(1) space by reversing pointer directions while traversing • Used for reversing entire lists, specific sections, or groups of nodes in linked lists [[in-place-reversal-of-linked-list]] 

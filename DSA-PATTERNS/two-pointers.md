@@ -88,10 +88,4 @@ def remove_duplicates(arr):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Two Pointers pattern? ::
-
-• Uses two pointers to traverse data structure, either from opposite ends or same direction
-• Reduces time complexity from O(n²) to O(n) for problems involving pairs or relationships
-• Common for sorted arrays, palindromes, and finding target sums or removing duplicates
-
-[[two-pointers]] 
+What is the Two Pointers pattern? :: • Uses two pointers to traverse data structure, either from opposite ends or same direction • Reduces time complexity from O(n²) to O(n) for problems involving pairs or relationships • Common for sorted arrays, palindromes, and finding target sums or removing duplicates [[two-pointers]] 

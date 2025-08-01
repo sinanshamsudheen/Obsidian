@@ -215,10 +215,4 @@ def strongly_connected_components(graph):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Graph DFS pattern? ::
-
-• Explores graph by going deep along each branch before backtracking using recursion or stack
-• Time O(V + E), Space O(V); used for cycle detection, topological sorting, and path finding
-• Goes deep first unlike BFS which explores level by level
-
-[[graph-dfs]] 
+What is the Graph DFS pattern? :: • Explores graph by going deep along each branch before backtracking using recursion or stack • Time O(V + E), Space O(V); used for cycle detection, topological sorting, and path finding • Goes deep first unlike BFS which explores level by level [[graph-dfs]] 

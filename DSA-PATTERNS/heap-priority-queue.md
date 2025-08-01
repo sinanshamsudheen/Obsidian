@@ -258,10 +258,4 @@ def reorganize_string(s):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Heap / Priority Queue pattern? ::
-
-• Data structure maintaining partial order with efficient min/max access (insert/extract O(log n), peek O(1))
-• Two types: min-heap (smallest at root) and max-heap (largest at root)
-• Used for "top K", "Kth largest/smallest", scheduling, and streaming data problems
-
-[[heap-priority-queue]] 
+What is the Heap / Priority Queue pattern? :: • Data structure maintaining partial order with efficient min/max access (insert/extract O(log n), peek O(1)) • Two types: min-heap (smallest at root) and max-heap (largest at root) • Used for "top K", "Kth largest/smallest", scheduling, and streaming data problems [[heap-priority-queue]] 

@@ -109,10 +109,4 @@ def find_duplicate(nums):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Cyclic Sort pattern? ::
-
-• Places each number at its correct index in array containing numbers from 1 to n
-• Achieves O(n) time and O(1) space by swapping elements to correct positions  
-• Used for finding missing numbers, duplicates, or first missing positive in arrays
-
-[[cyclic-sort]] 
+What is the Cyclic Sort pattern? :: • Places each number at its correct index in array containing numbers from 1 to n • Achieves O(n) time and O(1) space by swapping elements to correct positions • Used for finding missing numbers, duplicates, or first missing positive in arrays [[cyclic-sort]] 

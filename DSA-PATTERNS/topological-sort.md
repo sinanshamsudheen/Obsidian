@@ -204,10 +204,4 @@ def alien_dictionary_order(words):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Topological Sort pattern? ::
-
-• Arranges vertices of directed acyclic graph in linear order where edges go from earlier to later vertices
-• Two approaches: DFS-based (recursion stack) and BFS-based (Kahn's algorithm using in-degrees)
-• Used for task scheduling, course prerequisites, and dependency resolution problems
-
-[[topological-sort]] 
+What is the Topological Sort pattern? :: • Arranges vertices of directed acyclic graph in linear order where edges go from earlier to later vertices • Two approaches: DFS-based (recursion stack) and BFS-based (Kahn's algorithm using in-degrees) • Used for task scheduling, course prerequisites, and dependency resolution problems [[topological-sort]] 

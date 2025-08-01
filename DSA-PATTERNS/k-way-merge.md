@@ -283,10 +283,4 @@ def median_of_k_sorted_arrays(arrays):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the K-way Merge pattern? ::
-
-• Efficiently merges k sorted arrays/lists using min-heap to pick smallest available element
-• Maintains k pointers advancing after picking elements, with O(n log k) time complexity
-• Used for merging multiple sorted sequences, finding kth smallest, and range problems
-
-[[k-way-merge]] 
+What is the K-way Merge pattern? :: • Efficiently merges k sorted arrays/lists using min-heap to pick smallest available element • Maintains k pointers advancing after picking elements, with O(n log k) time complexity • Used for merging multiple sorted sequences, finding kth smallest, and range problems [[k-way-merge]] 

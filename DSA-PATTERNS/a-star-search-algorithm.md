@@ -560,10 +560,4 @@ def bidirectional_a_star(grid, start, goal):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the A* Search Algorithm pattern? ::
-
-• Informed search using f-score = g-score + h-score where g=actual cost, h=heuristic estimate
-• More efficient than Dijkstra when good admissible heuristic available, guarantees optimal solution
-• Applied to pathfinding, puzzle solving, and optimization problems with spatial or domain knowledge
-
-[[a-star-search-algorithm]] 
+What is the A* Search Algorithm pattern? :: • Informed search using f-score = g-score + h-score where g=actual cost, h=heuristic estimate • More efficient than Dijkstra when good admissible heuristic available, guarantees optimal solution • Applied to pathfinding, puzzle solving, and optimization problems with spatial or domain knowledge [[a-star-search-algorithm]] 

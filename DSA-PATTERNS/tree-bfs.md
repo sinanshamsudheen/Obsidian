@@ -156,10 +156,4 @@ def level_averages(root):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Tree BFS pattern? ::
-
-• Traverses tree level by level using queue data structure to visit all nodes at current level first
-• Time O(n), Space O(w) where w is maximum width of tree
-• Used for level-order traversal, finding minimum depth, and level-based tree problems
-
-[[tree-bfs]] 
+What is the Tree BFS pattern? :: • Traverses tree level by level using queue data structure to visit all nodes at current level first • Time O(n), Space O(w) where w is maximum width of tree • Used for level-order traversal, finding minimum depth, and level-based tree problems [[tree-bfs]] 

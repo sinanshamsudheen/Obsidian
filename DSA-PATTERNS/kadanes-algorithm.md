@@ -326,10 +326,4 @@ def longest_turbulent_subarray(arr):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Kadane's Algorithm pattern? ::
-
-• Finds maximum sum contiguous subarray in O(n) time using dynamic programming approach
-• Key insight: at each position either extend previous subarray or start new one
-• Extended to maximum product, circular arrays, 2D matrices, and stock trading problems
-
-[[kadanes-algorithm]] 
+What is the Kadane's Algorithm pattern? :: • Finds maximum sum contiguous subarray in O(n) time using dynamic programming approach • Key insight: at each position either extend previous subarray or start new one • Extended to maximum product, circular arrays, 2D matrices, and stock trading problems [[kadanes-algorithm]] 

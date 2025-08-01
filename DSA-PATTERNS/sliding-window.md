@@ -81,10 +81,4 @@ def sliding_window_variable(s, k):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Sliding Window pattern? ::
-
-• A technique that maintains a window (subarray/substring) that slides through data to avoid nested loops
-• Reduces time complexity from O(n²) to O(n) for contiguous subarray/substring problems
-• Two types: fixed-size (constant window) and variable-size (expand/shrink based on conditions)
-
-[[sliding-window]] 
+What is the Sliding Window pattern? :: • A technique that maintains a window (subarray/substring) that slides through data to avoid nested loops • Reduces time complexity from O(n²) to O(n) for contiguous subarray/substring problems • Two types: fixed-size (constant window) and variable-size (expand/shrink based on conditions) [[sliding-window]] 

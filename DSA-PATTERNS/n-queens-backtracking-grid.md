@@ -367,10 +367,4 @@ def hamiltonian_path(graph):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the N-Queens / Backtracking Grid pattern? ::
-
-• Solves constraint satisfaction problems on grids using backtracking with systematic placement and constraint checking
-• Places items row by row, validates constraints (like queen attacks), and backtracks when violated
-• Applied to N-Queens, Sudoku, graph coloring, and grid-based constraint problems
-
-[[n-queens-backtracking-grid]] 
+What is the N-Queens / Backtracking Grid pattern? :: • Solves constraint satisfaction problems on grids using backtracking with systematic placement and constraint checking • Places items row by row, validates constraints (like queen attacks), and backtracks when violated • Applied to N-Queens, Sudoku, graph coloring, and grid-based constraint problems [[n-queens-backtracking-grid]] 

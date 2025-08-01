@@ -272,10 +272,4 @@ def interleaving_string(s1, s2, s3):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Longest Common Subsequence (DP) pattern? ::
-
-• Finds longest subsequence common to sequences, preserving order but allowing gaps  
-• Uses 2D DP table with O(m×n) time, comparing characters and taking max of previous states
-• Foundation for edit distance, sequence alignment, and string similarity problems
-
-[[longest-common-subsequence-dp]] 
+What is the Longest Common Subsequence (DP) pattern? :: • Finds longest subsequence common to sequences, preserving order but allowing gaps • Uses 2D DP table with O(m×n) time, comparing characters and taking max of previous states • Foundation for edit distance, sequence alignment, and string similarity problems [[longest-common-subsequence-dp]] 

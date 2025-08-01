@@ -357,10 +357,4 @@ def create_maximum_number(nums1, nums2, k):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Monotonic Stack pattern? ::
-
-• Maintains elements in monotonic order, removing elements that violate order when adding new ones
-• Each element pushed/popped at most once, achieving O(n) total time complexity
-• Used for next/previous greater/smaller elements, histogram problems, and optimization tasks
-
-[[monotonic-stack]] 
+What is the Monotonic Stack pattern? :: • Maintains elements in monotonic order, removing elements that violate order when adding new ones • Each element pushed/popped at most once, achieving O(n) total time complexity • Used for next/previous greater/smaller elements, histogram problems, and optimization tasks [[monotonic-stack]] 

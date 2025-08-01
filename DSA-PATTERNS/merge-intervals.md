@@ -104,10 +104,4 @@ def can_attend_meetings(intervals):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Merge Intervals pattern? ::
-
-• Handles problems with overlapping intervals by first sorting intervals by start time
-• Merges overlapping intervals where start of one ≤ end of another
-• Common for scheduling problems, calendar conflicts, and range operations
-
-[[merge-intervals]] 
+What is the Merge Intervals pattern? :: • Handles problems with overlapping intervals by first sorting intervals by start time • Merges overlapping intervals where start of one ≤ end of another • Common for scheduling problems, calendar conflicts, and range operations [[merge-intervals]] 

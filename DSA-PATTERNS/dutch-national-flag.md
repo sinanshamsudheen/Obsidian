@@ -328,10 +328,4 @@ def kth_largest_using_partition(nums, k):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Dutch National Flag pattern? ::
-
-• Efficiently partitions array into three sections using three pointers in O(n) time and O(1) space
-• Uses low (< pivot boundary), mid (current), high (> pivot boundary) pointers
-• Applied to sorting colors, partitioning arrays, and three-way quicksort problems
-
-[[dutch-national-flag]] 
+What is the Dutch National Flag pattern? :: • Efficiently partitions array into three sections using three pointers in O(n) time and O(1) space • Uses low (< pivot boundary), mid (current), high (> pivot boundary) pointers • Applied to sorting colors, partitioning arrays, and three-way quicksort problems [[dutch-national-flag]] 

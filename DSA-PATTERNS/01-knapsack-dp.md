@@ -205,10 +205,4 @@ def coin_change_ways(coins, amount):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the 0/1 Knapsack (DP) pattern? ::
-
-• Classic DP where each item can be included (1) or excluded (0) from knapsack to maximize value
-• Uses 2D table or space-optimized 1D array with O(n×W) time complexity
-• Applied to subset sum, partition problems, and resource allocation with binary choices
-
-[[01-knapsack-dp]] 
+What is the 0/1 Knapsack (DP) pattern? :: • Classic DP where each item can be included (1) or excluded (0) from knapsack to maximize value • Uses 2D table or space-optimized 1D array with O(n×W) time complexity • Applied to subset sum, partition problems, and resource allocation with binary choices [[01-knapsack-dp]] 

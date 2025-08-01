@@ -106,10 +106,4 @@ def detect_cycle_start(head):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Fast & Slow Pointers pattern? ::
-
-• Uses two pointers moving at different speeds (fast: 2 steps, slow: 1 step) through data structure
-• Primarily for cycle detection in linked lists using Floyd's algorithm
-• When cycle exists, fast pointer eventually catches up to slow pointer
-
-[[fast-and-slow-pointers]] 
+What is the Fast & Slow Pointers pattern? :: • Uses two pointers moving at different speeds (fast: 2 steps, slow: 1 step) through data structure • Primarily for cycle detection in linked lists using Floyd's algorithm • When cycle exists, fast pointer eventually catches up to slow pointer [[fast-and-slow-pointers]] 

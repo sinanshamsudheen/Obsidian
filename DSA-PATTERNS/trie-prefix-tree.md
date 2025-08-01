@@ -403,10 +403,4 @@ def palindrome_pairs_trie(words):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Trie (Prefix Tree) pattern? ::
-
-• Tree structure storing strings efficiently by sharing common prefixes with each node representing a character
-• Provides O(m) operations for insert, search, and prefix queries where m is string length
-• Used for autocomplete, spell checkers, word games, and prefix-based string operations
-
-[[trie-prefix-tree]] 
+What is the Trie (Prefix Tree) pattern? :: • Tree structure storing strings efficiently by sharing common prefixes with each node representing a character • Provides O(m) operations for insert, search, and prefix queries where m is string length • Used for autocomplete, spell checkers, word games, and prefix-based string operations [[trie-prefix-tree]] 

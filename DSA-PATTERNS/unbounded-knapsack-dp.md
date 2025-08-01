@@ -247,10 +247,4 @@ def delete_and_earn(nums):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Unbounded Knapsack (DP) pattern? ::
-
-• Items can be selected multiple times (unlimited supply) to maximize value within constraints
-• Uses 1D DP array processing in forward direction with O(n×W) time complexity
-• Applied to coin change, perfect squares, and problems allowing repeated use of elements
-
-[[unbounded-knapsack-dp]] 
+What is the Unbounded Knapsack (DP) pattern? :: • Items can be selected multiple times (unlimited supply) to maximize value within constraints • Uses 1D DP array processing in forward direction with O(n×W) time complexity • Applied to coin change, perfect squares, and problems allowing repeated use of elements [[unbounded-knapsack-dp]] 

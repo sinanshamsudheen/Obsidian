@@ -247,10 +247,4 @@ def find_in_mountain_array(target, mountain_arr):
 
 ## 🧠 Flashcard (for spaced repetition)
 
-What is the Modified Binary Search pattern? ::
-
-• Adapts binary search for problems beyond simple sorted array searches (rotated arrays, 2D matrices, optimization)
-• Maintains O(log n) by eliminating half the search space based on conditions
-• Key is identifying the condition that allows eliminating half the possibilities
-
-[[modified-binary-search]] 
+What is the Modified Binary Search pattern? :: • Adapts binary search for problems beyond simple sorted array searches (rotated arrays, 2D matrices, optimization) • Maintains O(log n) by eliminating half the search space based on conditions • Key is identifying the condition that allows eliminating half the possibilities [[modified-binary-search]] 
