@@ -302,6 +302,146 @@
             }
           },
           {
+            "id": "038ef0b1910df72f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "08 Work/LOK - 93 friday.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LOK - 93 friday"
+            }
+          },
+          {
+            "id": "c795758f1e321c08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "08 Work/lok 101.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lok 101"
+            }
+          },
+          {
+            "id": "e1015226c7b476d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "08 Work/QnA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "QnA"
+            }
+          },
+          {
+            "id": "68583d696eea1698",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "08 Work/sunday - lok 113.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "sunday - lok 113"
+            }
+          },
+          {
+            "id": "46641bfc96579594",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "08 Work/LOK - 93 friday.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LOK - 93 friday"
+            }
+          },
+          {
+            "id": "4320ee96b4029874",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "08 Work/lok 93 - 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lok 93 - 2"
+            }
+          },
+          {
+            "id": "27a0bd239c0dc07f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "08 Work/lok 93 - 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lok 93 - 2"
+            }
+          },
+          {
+            "id": "61cde8edfa46cbb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "08 Work/lok 113- 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lok 113- 2"
+            }
+          },
+          {
+            "id": "c7ec41e087a945ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "08 Work/api.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "api"
+            }
+          },
+          {
+            "id": "9837fd76d852e47e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "08 Work/lok 93 - 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lok 93 - 2"
+            }
+          },
+          {
             "id": "7fa875e752dce004",
             "type": "leaf",
             "state": {
@@ -340,7 +480,7 @@
             }
           }
         ],
-        "currentTab": 20
+        "currentTab": 30
       }
     ],
     "direction": "vertical"
@@ -495,7 +635,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 654.5
+    "width": 562.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -508,46 +648,47 @@
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "fit:Fit Sync": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "391dd41bb12927b9",
   "lastOpenFiles": [
-    "GDforexam.md",
-    "08 Work/hands on.md",
-    "Untitled.md",
-    "Topic1.md",
-    "Untitled.canvas",
-    "08 Work/lok 101.md",
     "conflict-files-obsidian-git.md",
-    "08 Work/Prompt for Work Doc.md",
-    "08 Work/sunday - lok 113.md",
+    "08 Work/lok 93 - 2.md",
+    "Untitled.canvas",
+    "DSA-PATTERNS/01-knapsack-dp.md",
+    "02 Programming Notes/DSA & CP/the prompt.md",
+    "DSA-PATTERNS/segment-tree-binary-indexed-tree.md",
+    "DSA-PATTERNS/a-star-search-algorithm.md",
+    "DSA-PATTERNS/dijkstras-algorithm.md",
+    "DSA-PATTERNS/floyd-warshall-all-pairs-shortest-path.md",
+    "DSA-PATTERNS/prefix-sum-difference-arrays.md",
+    "DSA-PATTERNS/stack-based-expression-evaluation.md",
+    "DSA-PATTERNS/monotonic-stack.md",
+    "DSA-PATTERNS/dutch-national-flag.md",
+    "DSA-PATTERNS/kadanes-algorithm.md",
+    "DSA-PATTERNS/greedy-algorithms.md",
+    "DSA-PATTERNS/union-find-disjoint-set.md",
+    "DSA-PATTERNS/trie-prefix-tree.md",
+    "DSA-PATTERNS/n-queens-backtracking-grid.md",
+    "DSA-PATTERNS/permutations-backtracking.md",
+    "DSA-PATTERNS/subsets-backtracking.md",
+    "DSA-PATTERNS/palindromic-substrings-dp.md",
+    "DSA-PATTERNS/longest-common-subsequence-dp.md",
+    "DSA-PATTERNS/unbounded-knapsack-dp.md",
+    "DSA-PATTERNS/k-way-merge.md",
+    "DSA-PATTERNS/heap-priority-queue.md",
+    "DSA-PATTERNS/bit-manipulation.md",
+    "DSA-PATTERNS/modified-binary-search.md",
+    "DSA-PATTERNS",
     "08 Work/attachments/2025-07-27_09-36.png",
-    "09 Freelance/Ajnukka.md",
-    "02 Programming Notes/AI & ML/DL/LSTM (Long Short-Term Memory).md",
-    "_fit/08 Work/friday.md",
     "_fit/08 Work",
-    "08 Work/Onboarding.md",
     "09 Freelance",
-    "08 Work/friday.md",
     "08 Work/attachments/Pasted image 20250725211922.png",
     "08 Work/attachments",
-    "Trading/Untitled.md",
     "Trading",
-    "Templates/DSA.md",
-    "Templates/C4IT_Template.md",
     "Templates",
-    "05 Resources/Templates/Work.md",
-    "08 Work/hi.md",
-    "08 Work/hii.md",
-    "08 Work/docker.md",
-    "05 Resources/Templates/carry-over-tasks.md",
-    "05 Resources/Templates/DSA.md",
-    "02 Programming Notes/DSA & CP/food.md",
     "08 Work",
-    "02 Programming Notes/AI & ML/YOLO.md",
-    "02 Programming Notes/AI & ML/DL/RNN.md",
     "02 Programming Notes/AI & ML/DL/attachments/Pasted image 20250605103047.png",
     "02 Programming Notes/AI & ML/DL/attachments/Pasted image 20250605102859.png",
     "02 Programming Notes/AI & ML/DL/attachments/Pasted image 20250605102842.png",
@@ -558,7 +699,6 @@
     "02 Programming Notes/AI & ML/DL/attachments/Pasted image 20250605101621.png",
     "attachments",
     "02 Programming Notes/AI & ML/DL/attachments",
-    "IITB/Handbooks",
-    "_fit/07 Academics"
+    "IITB/Handbooks"
   ]
 }
