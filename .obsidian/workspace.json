@@ -433,12 +433,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08 Work/lok 93 - 2.md",
+                "file": "08 Work/api.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lok 93 - 2"
+              "title": "api"
             }
           },
           {
@@ -651,10 +651,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "391dd41bb12927b9",
+  "active": "9837fd76d852e47e",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "08 Work/lok 93 - 2.md",
+    "conflict-files-obsidian-git.md",
     "Untitled.canvas",
     "DSA-PATTERNS/01-knapsack-dp.md",
     "02 Programming Notes/DSA & CP/the prompt.md",
