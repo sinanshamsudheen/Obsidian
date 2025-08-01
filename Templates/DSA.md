@@ -1,19 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-### created: 25-07-2025
-=======
-=======
->>>>>>> origin/master
 <%*
 let created = tp.date.now("DD-MM-YYYY"); // Use current date for file creation
 let title = tp.file.title;
 %>
 ### created: <% created %>
-<<<<<<< HEAD
->>>>>>> origin/master
-=======
->>>>>>> origin/master
 ---
 ## Problem Overview  
 
@@ -26,30 +15,14 @@ let title = tp.file.title;
 What concept(s) does this problem test?  
 (e.g. Binary Search, DP, Greedy, Graphs, Trees, etc.)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-What is the key concept used in DSA::[e.g. Dynamic Programming with Memoization]
-=======
 What is the key concept used in <% title %>::[e.g. Dynamic Programming with Memoization]
->>>>>>> origin/master
-=======
-What is the key concept used in <% title %>::[e.g. Dynamic Programming with Memoization]
->>>>>>> origin/master
 
 ---
 ### Context  
 Where and when is this useful?  
 (e.g. Common in interviews, real-world problem class, etc.)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-In what context does DSA apply::[Use-case explanation]
-=======
 In what context does <% title %> apply::[Use-case explanation]
->>>>>>> origin/master
-=======
-In what context does <% title %> apply::[Use-case explanation]
->>>>>>> origin/master
 
 ---
 ### Connection  
@@ -59,15 +32,7 @@ Which concepts/techniques/other problems are related?
 - [[Kadane’s Algorithm]]
 - [[DP-State Optimization]]
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-What is DSA connected to::[[Linked_Problem_1]], [[Technique]]
-=======
 What is <% title %> connected to::[[Linked_Problem_1]], [[Technique]]
->>>>>>> origin/master
-=======
-What is <% title %> connected to::[[Linked_Problem_1]], [[Technique]]
->>>>>>> origin/master
 
 ---
 ### Concrete Example  
@@ -80,15 +45,7 @@ def solve(arr):
     return result
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Walk through a sample example of DSA::[Step-by-step explanation]
-=======
 Walk through a sample example of <% title %>::[Step-by-step explanation]
->>>>>>> origin/master
-=======
-Walk through a sample example of <% title %>::[Step-by-step explanation]
->>>>>>> origin/master
 
 
 ---
@@ -103,15 +60,7 @@ What mistake did I make and how did I fix it?
 What would I ask in a follow-up or variation?
 [Write here]
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-The most common mistake in DSA is {{[your insight]}}.
-=======
 The most common mistake in <% title %> is {{[your insight]}}.
->>>>>>> origin/master
-=======
-The most common mistake in <% title %> is {{[your insight]}}.
->>>>>>> origin/master
 
 
 ---
@@ -120,27 +69,11 @@ The most common mistake in <% title %> is {{[your insight]}}.
 Time: O(...)
 Space: O(...)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-What is the time and space complexity of DSA::Time: O(...), Space: O(...)
-=======
 What is the time and space complexity of <% title %>::Time: O(...), Space: O(...)
->>>>>>> origin/master
-=======
-What is the time and space complexity of <% title %>::Time: O(...), Space: O(...)
->>>>>>> origin/master
 
 
 ---
 ##### Tags
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-#dsa/DSA #cp #leetcode #gfg #interview #flashcard
-=======
 #dsa/<% title %> #cp #leetcode #gfg #interview #flashcard
->>>>>>> origin/master
-=======
-#dsa/<% title %> #cp #leetcode #gfg #interview #flashcard
->>>>>>> origin/master
 
