@@ -1,9 +1,0 @@
-{
-  "alwaysUpdateLinks": true,
-  "userIgnoreFilters": [
-    "05 Resources/Templates/"
-  ],
-  "promptDelete": false,
-  "useMarkdownLinks": false,
-  "attachmentFolderPath": "./attachments"
-}
