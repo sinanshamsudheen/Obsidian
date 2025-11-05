@@ -20,9 +20,11 @@
  >within this december, 15% of clients should be from online
  >15-20% of sales through online,
  > Direct Text Marketing
+ > ![[Pasted image 20250804204240.png]]
 ## 2. How do you currently manage and communicate with your downline team, and what training processes do you have team management automation
 > wtsp, calls, 
 > in wtsp,
+> ![[Pasted image 20250804204614.png]]
 
 ## 3. What contact management system are you using, and how do you track prospect interactions and team performance?
 

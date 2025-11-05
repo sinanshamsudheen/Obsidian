@@ -1,0 +1,2 @@
+![[Pasted image 20250815111757.png]]![[Pasted image 20250815112738.png]]
+![[Pasted image 20250815173601.png]]![[Pasted image 20250815174048.png]]![[Pasted image 20250815174230.png]]![[Pasted image 20250815174723.png]]![[Pasted image 20250815174949.png]]P
