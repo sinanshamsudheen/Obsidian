@@ -1,8 +1,5 @@
-<%*
-let created = tp.date.now("DD-MM-YYYY"); // Use current date for file creation
-let title = tp.file.title;
-%>
-## Date: <% created %>`
+
+## Date: 09-11-2025`
 
 ## **Today's Session**
 
