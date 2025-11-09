@@ -1,1 +1,2 @@
 table
+insights|frequency|
