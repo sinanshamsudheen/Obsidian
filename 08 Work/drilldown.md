@@ -1,2 +1,2 @@
 table
-insights|frequency|
+insights|frequency|org_id|rooftop_id|
