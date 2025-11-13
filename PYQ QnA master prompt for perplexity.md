@@ -72,25 +72,41 @@ For each module, generate two sections:
 
 ### 📋 **Example Structure (Demo Only)**
 
-Module 1:
+Module 1:  
 
-PART A:
-1. Define alkalinity and its types – Water Chemistry – 87%
-   - Answer:
-     - Alkalinity is the capacity to neutralize acids.
-     - Caused by hydroxide, carbonate and bicarbonate ions.
-     - Expressed in mg/L as CaCO₃.
-     - Temporary or permanent based on source.
+PART A (3 Marks):  
+1. Define alkalinity and its types – Water Chemistry – 87%  
+   - **Answer:**  
+     - Alkalinity is the ability of water to neutralize acids.  
+     - Caused mainly by hydroxides (OH⁻), carbonates (CO₃²⁻), and bicarbonates (HCO₃⁻).  
+     - Expressed as mg/L of CaCO₃ equivalent.  
+     - Types: temporary (due to HCO₃⁻) and permanent (due to CO₃²⁻, OH⁻).  
 
-PART B:
-1. Explain ion-exchange process of water softening – Water Treatment – 95%
-   - Answer:
-     - Hardness due to Ca²⁺ and Mg²⁺ ions.
-     - Ion-exchange resin replaces Ca²⁺/Mg²⁺ with Na⁺.
-     - Includes regeneration with brine solution.
-     - Produces soft water for industrial use.
-     - Removes both temporary and permanent hardness.
-     - Faster and more efficient than lime-soda method.
+---
+
+PART B (8 Marks):  
+1. Explain the ion-exchange process of water softening – Water Treatment – 95%  
+   - **Answer:**  
+     - Water hardness is caused by the presence of calcium (Ca²⁺) and magnesium (Mg²⁺) ions that react with soap and form insoluble scum.  
+     - The ion-exchange process removes these hardness-causing ions by replacing them with sodium (Na⁺) ions using specially prepared resins.  
+     - **Resins used:**  
+       - *Cation-exchange resin (R–Na):* exchanges Na⁺ for Ca²⁺ and Mg²⁺.  
+       - *Anion-exchange resin (R–OH):* removes anions such as Cl⁻, SO₄²⁻, and NO₃⁻.  
+     - **Reactions involved:**  
+       - R–Na + Ca²⁺ → R₂–Ca + 2Na⁺  
+       - R–Na + Mg²⁺ → R₂–Mg + 2Na⁺  
+     - **Regeneration step:**  
+       - After exhaustion, resins are regenerated using concentrated brine (NaCl) solution to restore Na⁺ ions.  
+       - R₂–Ca + 2NaCl → 2R–Na + CaCl₂  
+     - **Advantages:**  
+       - Produces completely soft water suitable for industrial use and boilers.  
+       - Removes both temporary and permanent hardness.  
+       - Faster, continuous, and more efficient than lime-soda or zeolite processes.  
+       - Compact, easy to operate, and requires minimal maintenance.  
+     - **Applications:**  
+       - Domestic water softeners, power plants, textile industries, and boiler feedwater preparation.  
+
+
 
 ### 🧾 **Final Output Expectations**
 
