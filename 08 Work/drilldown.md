@@ -82,5 +82,5 @@ output =
 }
 (same for all the tags invovled(here we only have 2 tags))
 
-and then we extract it into a table so that we can later fetch 
+and then we extract it into the models/insights table so that we can later fetch.
 
