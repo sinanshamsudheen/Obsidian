@@ -27,7 +27,7 @@ For each module, generate two sections:
     
     - **Answer:**
         
-        - 4 concise bullet points only.
+        - 4 bullet points each with 10-15 words.
             
         - Simple, easy-to-remember language.
             
@@ -42,7 +42,7 @@ For each module, generate two sections:
     
     - **Answer:**
         
-        - 6 to 8 clear bullet points.
+        - 6 to 8 clear bullet points, each bullet point should have atleast 15-20 words.
             
         - Write in simple, exam-ready English.
             
