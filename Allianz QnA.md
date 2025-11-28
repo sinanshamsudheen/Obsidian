@@ -8,3 +8,4 @@ how can we reduce latency even more?
 can u list 10 example categorization for cohort models?
 how effective is river in this system?
 wt all can our chatbot do?
+how does using svelte give us an advantage?
