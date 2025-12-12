@@ -9,3 +9,6 @@ How do we handle call completion rate?
 Any secret first message?
 
 What's the MOST expensive part of running high-volume Al telephony that people underestimate?
+
+
+50k minutes
