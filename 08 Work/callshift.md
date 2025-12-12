@@ -13,3 +13,4 @@ What's the MOST expensive part of running high-volume Al telephony that people u
 
 50k minutes
 testing -> rule of 3, 3 test for each usecase
+hamming, secura, langfuse
