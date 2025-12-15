@@ -1,3 +1,47 @@
+```
+You are acting as a senior MLflow maintainer evaluating issues for a potential GSoC contributor.
+
+TASK:
+Scan the MLflow repository issues and identify the TOP 3 issues that are best suited for a first meaningful contribution.
+
+HARD CONSTRAINTS (must satisfy ALL):
+- Repository: MLflow
+- Updated or commented on within the last 30 days
+- Has at least one maintainer comment or review activity
+- NOT labeled "good first issue"
+- NOT a large design discussion or roadmap item
+- NOT assigned to someone else
+- Scope should be implementable within 1–2 weeks
+- Primarily Python code (not frontend-heavy)
+
+EVALUATION CRITERIA (rank by these):
+1. High maintainer attention (active discussion, recent responses)
+2. Clear problem statement with reproducible behavior or failing tests
+3. Limited blast radius (localized code changes)
+4. High maintainer value (stability, reliability, correctness, CI, infra)
+5. Low risk of architectural controversy
+
+FOR EACH SELECTED ISSUE, OUTPUT:
+- Issue title and link
+- Last maintainer activity date
+- A short summary of the root problem
+- Likely files/modules involved
+- Whether this issue should be:
+  (A) solved directly with a PR, or
+  (B) require clarification / issue confirmation first
+- Risk level for a first-time contributor (Low / Medium / High)
+- Why this issue is a good visibility opportunity
+
+IMPORTANT RULES:
+- Do NOT suggest opening new features.
+- Do NOT suggest refactors unrelated to the issue.
+- Prefer issues involving tests, tracking correctness, artifact logging, evaluation, or CI reliability.
+- Be conservative: if an issue is ambiguous or politically sensitive, exclude it.
+
+FINAL OUTPUT:
+Rank exactly 5 issues from best to worst for a first serious MLflow contribution.
+
+``````
 Yes. This is the **right question**, and I’m glad you’re asking it _before_ writing anything.
 
 Below is a **copy-paste–ready instruction block** you can use with any LLM (ChatGPT, Claude, etc.) so the output:
