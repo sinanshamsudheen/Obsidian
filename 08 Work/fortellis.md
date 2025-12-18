@@ -6,7 +6,7 @@ curl -X GET "https://api.fortellis.io/cdk/drive/department" \
   -H "Request-Id: $(uuidgen)" \
   -H "Accept: application/json"
 D100152200
-
+![[Pasted image 20251218181919.png]]
 {
 "data": [
 {
