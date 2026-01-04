@@ -5,4 +5,9 @@ customer pay, internal RO(avoid if only this exist), warranty pay - payType colu
 crosscheck db with dealervault
 
 ADP = fortellis
+delta calls in dealerVault?
+
+cdk = auto dms?
+
+
 
