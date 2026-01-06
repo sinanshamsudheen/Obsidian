@@ -17,3 +17,8 @@
 9 - is there any filtering from ur side to avoid ROs with no phone number?
 
 10- is there a certification process or some process to be done before we can sandbox or test the integration?
+
+![[Pasted image 20260106223609.png]]
+
+
+![[Pasted image 20260106223636.png]]
