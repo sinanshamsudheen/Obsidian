@@ -18,6 +18,7 @@
 
 10- is there a certification process or some process to be done before we can sandbox or test the integration?
 
+11 - 
 ![[Pasted image 20260106223609.png]]
 
 
