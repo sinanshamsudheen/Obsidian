@@ -24,3 +24,7 @@
 ![[Pasted image 20260106223636.png]]
 
 Service(SV) = RO
+
+JWT token for 30min
+
+![[Pasted image 20260106224129.png]]
