@@ -1,0 +1,1 @@
+name, number, { previous_visits(all)-> service_type, nps score, vehicle make/model }, total_spend (excluding warranty pay or internal pay),
