@@ -8,7 +8,7 @@ and we gonna include a chatbot like agent which can fetch data from queries such
 
 
 
-
+do we store the raw data in db or s3
 "payments": [
 
 {
