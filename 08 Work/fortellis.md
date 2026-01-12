@@ -1,3 +1,12 @@
+NW7D3zYNhsSrdgMBpdZKjAWVXuNNoLcc
+
+curl -X GET "https://api.fortellis.io/cdk-test/drive/employee/v2/bulk" \
+     -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjlhNTU2ZGYwLWI3NjUtMTFlOC1hMmU4LTI5ZjRlYmZhMjg4MiJ9.eyJjaWQiOiJOVzdEM3pZTmhzU3JkZ01CcGRaS2pBV1ZYdU5Ob0xjYyIsImp0aSI6IkFULmdGRUoxTUtFOXM3RnFsX2xMUDJ2RVZkUUVkTl9rUGlnNnhtUXZWWjJVdUkiLCJzY3AiOlsiYW5vbnltb3VzIl0sInN1YiI6Ik5XN0QzellOaHNTcmRnTUJwZFpLakFXVlh1Tk5vTGNjIiwiaWF0IjoxNzY4MjE0NzMzLCJleHAiOjE3NjgyMTgzMzMsImF1ZCI6ImFwaV9wcm92aWRlcnMiLCJpc3MiOiJodHRwczovL2lkZW50aXR5LmZvcnRlbGxpcy5pby9vYXV0aDIvYXVzMXAxaXh5N1lMOGNNcTAycDcifQ.dP-T5dzIaEox2-pJJV6jCPZBGz95MWxoAYNLmey8SLskkHdD8IHrLwb57VNIhDoR5hua_vwUP44WQcRKfQniFsLa-vJXCDi7fPWrUi0NhQaI_Bg3foB71ifLaitUGSlWyVMfMMvermR4kNqPHygTodQWqGPMHY0Q_Byc3CveTijwU2D4wyOWz0gS7jNFEGmWz5zvJkZg-GHzohdXZEl7AhbTul1nE5TxnIWEGD9YV_TjWHXMsXQsBx5x2-lDKMuw760cH6IFbvjOXEaGlnPQNTf_MX6nGRH9j9BuFrSjFYEx10euX9zyuhe6rFC9WIfHpHaRQcp0TuedcloshkS3Jw" \
+     -H "Subscription-Id: 55b271af-4e21-4c95-a6d1-5411bbd6c7bd" \
+     -H "Data-Owner-Id: D100152200" \
+     -H "Department-Id: All" \
+     -H "Accept: application/json"
+ 
 after fetching from dms,
 do we store data to both calls and customerdb? and wt about service_records
  Subscription ID: 55b271af-4e21-4c95-a6d1-5411bbd6c7bd
