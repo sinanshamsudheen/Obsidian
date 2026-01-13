@@ -56,3 +56,23 @@ When triggered (automatically or manually):
     
 
 Storm Mode should be **obvious in the UI**.
+
+
+- Track ingestion time vs alert time
+    
+- Surface delay explicitly in UI
+
+
+### Battle-Tested Fix: **Night Guardrails**
+
+Outside business hours:
+
+- Freeze model learning for sensitive cohorts
+    
+- Raise alert thresholds slightly
+    
+- Prefer suppression over escalation
+    
+
+Night mode ≠ day mode.  
+This is a **real SOC trick**.
