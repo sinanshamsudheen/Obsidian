@@ -76,3 +76,7 @@ Outside business hours:
 
 Night mode ≠ day mode.  
 This is a **real SOC trick**.
+
+
+Arxis will succeed not because it’s smart,  
+but because it stays predictable when everything else is chaotic.
