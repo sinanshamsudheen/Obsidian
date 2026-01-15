@@ -1,8 +1,8 @@
 replace actions with details , X
-reason -> priority
-remove avg score
+reason -> priority, X
+remove avg score, X
 sorting
-click to change resolved 
+click to change resolved X
 remove from sidebar
 
 rename the reason column name to Priority, where there will be a click to popup priority 'low','medium','high'
