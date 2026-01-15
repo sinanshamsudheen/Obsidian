@@ -1,0 +1,1 @@
+replace actions with details
