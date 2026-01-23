@@ -21,3 +21,11 @@ rn, we dont know wt happens when the customer clicks on 'install' on our app in 
 
 
 unsold desklog + after sales feedback, do we need to update the workflow file for those rn?
+
+
+rn we only want close service RO
+in the future we want to expand to... 
+i think we need .. apis..
+so, do we need to update the workflow file for those?
+
+also in the future, if we wanna include unsold desklog + after sales feedback, wt is the process? 
