@@ -24,8 +24,8 @@ unsold desklog + after sales feedback, do we need to update the workflow file fo
 
 
 rn we only want close service RO
-in the future we want to expand to... 
-i think we need .. apis..
+in the future we want to expand to unsold desklog + after sales feedback
+i think we need 'CDK CRM Get Sales Leads' and  apis..
 so, do we need to update the workflow file for those?
 
 also in the future, if we wanna include unsold desklog + after sales feedback, wt is the process? 
